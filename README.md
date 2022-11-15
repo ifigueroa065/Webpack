@@ -100,3 +100,35 @@ Debes utilizar los siguientes paquetes:
 * terser-webpack-plugin ⇒ Permite minificar de una mejor forma
 
         npm i css-minimizer-webpack-plugin terser-webpack-plugin -D
+
+## 🔑 Variables de entorno
+
+Es importante considerar las variables de entorno va a ser un espacio seguro donde podemos guardar datos sensibles
+Por ejemplo, subir llaves al repositorio no es buena idea cuando tienes un proyecto open source
+Para instalar debemos correr el comando
+
+       npm install -D dotenv-webpack
+
+Posteriormente debemos crear un archivo .env donde estarán la clave para acceder a la misma y el valor que contendrán
+
+    Ejemplo 
+    API=https://randomuser.me/api/
+    
+Es buena idea tener un archivo de ejemplo donde, el mismo si se pueda subir al repositorio como muestra de que campos van a ir
+Una vez creado el archivo .env debemos agregar la siguiente configuración en webpack.config.js
+
+    ...
+    const Dotenv = require('dotenv-webpack');
+    module.exports = {
+        ...
+        plugins: [
+            new Dotenv()
+      ],
+    }
+    
+dotenv-webpack ⇒ Leera el archivo .env por defecto y lo agregar a nuestro proyecto
+Para usarlas debes hacer lo siguiente
+
+    const nombre = process.env.NOMBRE_VARIABLE;
+    
+Toda la configuración se podrá acceder desde process.env

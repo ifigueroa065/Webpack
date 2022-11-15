@@ -47,5 +47,6 @@ Un preprocesador CSS es un programa que te permite generar CSS a partir de la sy
 post procesadores son herramientas que procesan el CSS y lo transforman en una nueva hoja de CSS que le permiten optimizar y automatizar los estilos para los navegadores actuales.
 
     npm i mini-css-extract-plugin css-loader -D
+    npm i stylus-loader -D
 
     

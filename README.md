@@ -23,3 +23,11 @@ Webpack es un module bundler o empaquetador de módulos para JavaScript. Domina 
 
 ## Editor de código a tiempo real :man_technologist:
     https://codi.link/%7C%7C
+    
+## 💛 Babel Loader para JavaScript
+    npm install -D babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime
+
+* Babel te permite hacer que tu código JavaScript sea compatible con todos los navegadores
+* Debes agregar a tu proyecto las siguientes dependencias
+
+    

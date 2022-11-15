@@ -15,6 +15,7 @@ Webpack es un module bundler o empaquetador de módulos para JavaScript. Domina 
 ## Init :beginner:
     npm init -y
     npm install webpack webpack-cli -D
+    npx webpack
 
 ## Editor de código a tiempo real :man_technologist:
     https://codi.link/%7C%7C

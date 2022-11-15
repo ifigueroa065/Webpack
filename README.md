@@ -17,8 +17,9 @@ Webpack es un module bundler o empaquetador de módulos para JavaScript. Domina 
     npm install webpack webpack-cli -D
     npx webpack
     
-## Activar modo desarrollo :arrow_lower_left:
+## Activar Modos :arrow_lower_left:
     npx webpack --mode development
+    npx webpack --mode production
 
 ## Editor de código a tiempo real :man_technologist:
     https://codi.link/%7C%7C

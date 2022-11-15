@@ -132,3 +132,12 @@ Para usarlas debes hacer lo siguiente
     const nombre = process.env.NOMBRE_VARIABLE;
     
 Toda la configuración se podrá acceder desde process.env
+
+
+## 🏭 Webpack en modo producción
+
+Actualmente tenemos el problema de tener varios archivos repetidos los cuales se fueron acumulando por compilaciones anteriores
+Para ello puedes limpiar la carpeta cada vez que hacemos un build, usando clean-webpack-plugin
+Cabe recalcar que esta característica es mucho más util para la configuración de producción
+
+    npm install -D clean-webpack-plugin

@@ -48,5 +48,10 @@ post procesadores son herramientas que procesan el CSS y lo transforman en una n
 
     npm i mini-css-extract-plugin css-loader -D
     npm i stylus-loader -D
+    
+## 🗂️ Copia de archivos con Webpack
+Si tienes la necesidad de mover un archivo o directorio a tu proyecto final podemos usar un plugin llamado “copy-webpack-plugin”
+
+    npm i copy-webpack-plugin -D
 
     

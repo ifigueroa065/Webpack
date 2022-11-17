@@ -141,3 +141,8 @@ Para ello puedes limpiar la carpeta cada vez que hacemos un build, usando clean-
 Cabe recalcar que esta característica es mucho más util para la configuración de producción
 
     npm install -D clean-webpack-plugin
+
+
+## Instalar dependencias
+    
+    npm install react react-dom

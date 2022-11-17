@@ -2,7 +2,7 @@
 Webpack es un module bundler o empaquetador de módulos para JavaScript. Domina el uso de loaders y plugins para integrar tus herramientas favoritas a un entorno de desarrollo o producción. Optimiza tus proyectos con compresión y minificación de archivos. Configura Webpack con HTML, CSS, JavaScript, React.js, imágenes y fuentes para convertirte en frontend profesional.
 
 ## Apuntes de clase :green_book:
-    https://luis-ariza.notion.site/Asincronismo-con-JavaScript-7307b668977d416690103a4dbbf2843a
+    https://luis-ariza.notion.site/Webpack-418d184f06f54579a4a0735a335f554e
 
 
 ## Objetivos :rocket:
